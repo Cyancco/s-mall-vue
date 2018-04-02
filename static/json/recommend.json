@@ -1,0 +1,92 @@
+{
+	"categoryTitle":[
+		"眼镜",
+		"男装",
+		"女装",
+		"内衣袜子",
+		"母婴儿童",
+		"男女鞋靴",
+		"户外运动",
+		"皮具配件",
+		"出行必备",
+		"美妆洗护",
+		"个人护理",
+		"居家生活",
+		"厨具水具",
+		"生活家电",
+		"汽车配件",
+		"家装五金",
+		"家具建材",
+		"数码配件",
+		"穿搭配饰"
+	],
+	"categoryID":[
+		4,
+		2,
+		3,
+		28,
+		12,
+		7,
+		8,
+		9,
+		10,
+		13,
+		14,
+		11,
+		15,
+		16,
+		17,
+		18,
+		19,
+		6,
+		30
+	],
+	"info":[
+		"依视路集团旗下企业  制造商直供",
+		"Hugo Boss、PRADA等  制造商直供",
+		"MaxMara、Diesel等  制造商直供",
+		"CK、LA PERLA等  制造商直供",
+		"英国皇室御用服装  制造商直供",
+		"LACOSTE等  制造商直供",
+		"斯凯奇、Saucony等  制造商直供",
+		"COACH、MK等  制造商直供",
+		"新秀丽、NIKE等  制造商直供",
+		"SWISSGETAL实验室、欧舒丹等  制造商直供",
+		"Libman等  制造商直供",
+		"MUJI、King Koil等  制造商直供",
+		"WMF、ALL-Clad等  制造商直供",
+		"飞利浦等  制造商直供",
+		"BBA等  制造商直供",
+		"KOHLER卫浴等  制造商直供",
+		"MUJI等  制造商直供",
+		"飞利浦、JBL等  制造商直供",
+		"COACH、Kipling等  制造商直供"
+	],
+	"img":[
+		"../../../static/img/rec1.jpg",
+		"../../../static/img/rec19.jpg",
+		"../../../static/img/rec2.jpg",
+		"../../../static/img/rec3.jpg",
+		"../../../static/img/rec4.jpg",
+		"../../../static/img/rec5.jpg",
+		"../../../static/img/rec6.jpg",
+		"../../../static/img/rec7.jpg",
+		"../../../static/img/rec8.jpg",
+		"../../../static/img/rec9.jpg",
+		"../../../static/img/rec10.jpg",
+		"../../../static/img/rec11.jpg",
+		"../../../static/img/rec12.jpg",
+		"../../../static/img/rec13.jpg",
+		"../../../static/img/rec14.jpg",
+		"../../../static/img/rec15.jpg",
+		"../../../static/img/rec16.jpg",
+		"../../../static/img/rec17.jpg",
+		"../../../static/img/rec18.jpg"
+	]
+}
+
+
+
+
+
+

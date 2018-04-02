@@ -1,0 +1,254 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background-color: #f9f9f9;
+	moz-user-select: -moz-none; 
+	-moz-user-select: none; 
+	-o-user-select:none; 
+	-khtml-user-select:none; 
+	-webkit-user-select:none; 
+	-ms-user-select:none; 
+	user-select:none;
+}
+i{
+	font-style: normal;
+}
+.clearfix:after
+{
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+    height: 0; 
+
+    content: '.';
+}
+.account-header{
+	width:100%;
+	height:98px;
+	background-color: #fff;
+	border-bottom:1px solid #e8e8e8;
+}
+.wrap{
+	width:1080px;
+	margin:0 auto;
+}
+.nav-logo{
+	width:240px;
+	height:98px;
+	float: left;
+	background-image: url(../images/sprite.png);
+	background-position:0px -131px;
+}
+.account-header p{
+	float: right;
+	line-height: 98px;
+	color:#808080;
+	font-size: 14px;
+}
+.account-header p a{
+	color:#808080;
+	margin:0 10px;
+	text-decoration: none;
+}
+
+
+
+/*******************************/
+.account-wrap{
+	width:400px;
+	margin: 30px auto;
+	min-height: 400px;
+}
+.account-head{
+	height:40px;
+	color:#523669;
+	font-size:20px;
+	line-height: 40px;
+
+}
+.account-head b{
+	display: inline-block;
+	vertical-align: middle;
+	width:24px;
+	height:24px;
+	background: url(../images/sprite.png);
+	background-position: -212px -562px;
+}
+.account-head i{
+	float: right;
+	font-size:14px;
+	color:#808080;
+	cursor: pointer;
+	margin-left: 15px;
+}
+.account-head i.actived{
+	color:#523669;
+}
+.account-main{
+	
+}
+.account-main label{
+	position: relative;
+	display: block;
+	height:60px;
+	line-height: 60px;
+
+
+}
+.account-main label input{
+	display: inline-block;
+	vertical-align: middle;
+	width:378px;
+	height:38px;
+	border:1px solid #e8e8e8;
+	outline:0;
+	color:#999;
+	font-size:14px;
+	padding:0 10px;
+	background-color: #fff;
+}
+.inputError{
+	border:1px solid #f49f26 !important;
+}
+.inputError~i{
+	display: inline-block !important;
+}
+.account-main label i{
+	position: absolute;
+	display: none;
+	vertical-align: middle;
+	left:420px;
+	top:0px;
+	width:320px;
+	height:60px;
+	line-height:60px;
+	font-size:12px;
+	color:#f33;
+}
+
+.account-main label.auto{
+	line-height: 30px;
+}
+.account-main label b{
+	display: inline-block;
+	vertical-align: middle;
+	width:15px;
+	height:15px;
+	background:url(../images/sprite.png);
+	background-position: -260px -562px;
+	cursor: pointer;
+}
+.account-main label b.checked{
+	background-position: -280px -562px;
+}
+.account-main label span{
+	font-size:12px;
+	color:#8a8a8a;
+	cursor:pointer;
+	vertical-align: middle;
+}
+
+.account-main label a{
+	float: right;
+	font-size:12px;
+	color:#07a6df;
+	cursor:pointer;
+	vertical-align: middle;
+}
+.account-main .btn{
+	width:400px;
+	height:50px;
+	font-size:20px;
+	line-height: 50px;
+	text-align: center;
+	color:#fff;
+	background-color: #f49f26;
+	cursor: pointer;
+	position: relative;
+}
+/********/
+.account-main label.smsCode{
+	
+}
+.smsCode input{
+	width:218px !important;
+}
+.smsCode span{
+	float: right;
+	margin-top:12px;
+	display: inline-block;
+	vertical-align: middle;
+	width:140px;
+	height:40px;
+	color:#fff !important;
+	background-color: #724a88;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	cursor:pointer;
+}
+.sent{
+	background-color: #aaa!important;
+}
+/****************************/
+.account-foot{
+	margin-top:40px;
+	text-align: center;
+	
+}
+.account-foot span{
+	vertical-align: middle;
+	margin-right:10px;
+	font-size:14px;
+	color:#666;
+	line-height: 32px;
+}
+.account-foot>b{
+	vertical-align: middle;
+	display: inline-block;
+	width:100px;
+	height:32px;
+	margin-right:10px;
+	background: url(../images/sprite.png);
+	background-position: 0px -562px;
+}
+.account-foot b.qq-login{
+	background-position: -110px -562px;
+}
+.account-foot span.caution{
+	display: inline-block;
+	vertical-align: middle;
+	color: #f33;
+	font-size:12px;
+	margin-top:20px;
+	width:400px;
+	height:14px;
+	text-align: left;
+	line-height:14px; 
+}
+.account-foot span.caution b{
+	display: inline-block;
+	vertical-align: top;
+	width:14px;
+	height:14px;
+	background: url(../images/sprite.png);
+	background-position: -240px -562px;
+}
+
+.loginFalseTips{
+	position: absolute;
+	left:420px;
+	top:0;
+	width:100px;
+	height:50px;
+	text-align: left;
+	line-height: 50px;
+	color:#f33;
+	font-size:12px;
+}

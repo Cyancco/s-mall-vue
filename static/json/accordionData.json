@@ -1,0 +1,18 @@
+{
+	"src":[
+		"../../../static/img/accordion1.jpg",
+		"../../../static/img/accordion2.jpg",
+		"../../../static/img/accordion3.jpg",
+		"../../../static/img/accordion4.jpg",
+		"../../../static/img/accordion5.jpg",
+		"../../../static/img/accordion6.jpg"
+	],
+	"link":[
+		"/home",
+		"/home",
+		"/home",
+		"/home",
+		"/home",
+		"/home"
+	]
+}
