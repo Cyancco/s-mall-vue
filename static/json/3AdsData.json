@@ -1,0 +1,12 @@
+{
+	"src":[
+		"../../../static/img/ad1.jpg",
+		"../../../static/img/ad2.jpg",
+		"../../../static/img/ad3.jpg"
+	],
+	"link":[
+		"/home",
+		"/home",
+		"/home"
+	]
+}

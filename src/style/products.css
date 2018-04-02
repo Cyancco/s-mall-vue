@@ -1,0 +1,656 @@
+/* reset style */
+*
+{
+    margin: 0;
+    padding: 0;
+
+    word-break: break-all;
+}
+body
+{
+    font: 12px 'Microsoft YaHei', '微软雅黑', '宋体', Arial, Helvetica, sans-serif;
+
+    margin: 0;
+
+    text-align: left;
+
+    color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+label
+{
+    font-size: 12px;
+
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+ul,
+ol,
+li,
+dl
+{
+    font-size: 12px;
+
+    display: block;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    border: 0;
+}
+dt,
+dd
+{
+    display: block;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    border: 0;
+}
+i
+{
+    font-style: normal;
+}
+b
+{
+    font-weight: normal;
+}
+a
+{
+    cursor: pointer;
+    text-decoration: none;
+
+    outline: none;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.clearfix:after
+{
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+    height: 0; 
+
+    content: '';
+}
+.wrap{
+    width:1080px;
+    margin:0 auto;
+}
+
+body
+{
+    
+}
+.active
+{
+    border: 1px solid #523669 !important;
+}
+.hide
+{
+    display: none;
+}
+img
+{
+    width: 100%;
+}
+.bread{
+    margin:20px 0;
+}
+.bread a{
+    color:#333;
+    font-size:12px;
+}
+.bread a b{
+    margin: 0 8px 0 5px;
+}
+.bread span a{
+    color:#666;
+}
+.editor-main
+{
+    float: left;
+
+    width: 540px;
+}
+.editor-panel
+{
+    float: right;
+
+    width: 480px;/*****************/
+}
+/*上 主图区*/
+.editor-picture p
+{
+    float: left;
+
+    width: 446px;
+    height: 446px;
+
+    border: 1px solid #ccc;
+}
+
+.editor-picture ul
+{
+    float: right;
+    overflow: hidden;
+
+    width: 80px;
+    height: 448px;
+}
+.editor-picture li
+{
+    width: 78px;
+    height: 78px;
+    margin-bottom: 12px;
+
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+ul.editor-policy
+{
+    line-height: 16px;
+
+    height: 16px;
+    margin-top: 12px;
+}
+.editor-policy li
+{
+    position: relative;
+
+    display: inline-block;
+
+    margin-right: 10px;
+    padding-left: 20px;
+    background: url(../images/sprite.png);
+    background-position: -110px -600px;
+    cursor: pointer;
+
+}
+.editor-policy li:hover div
+{
+    display: block;
+
+}
+.editor-policy li div
+{
+    line-height: 1.5;
+
+    position: absolute;
+    top: 30px;
+    left: 0;
+
+    display: none;
+
+    width: 276px;
+    padding: 12px;
+    
+    background-color: #fff;
+    box-shadow: 0 1px 10px 4px rgba(0,0,0,.08);
+}
+.editor-policy li div i
+{
+    position: absolute;
+    top: -15px;
+    left: 30px;
+
+    display: block;
+
+    width: 30px;
+    height: 15px;
+    background:url(../images/sprite.png);
+    background-position: -220px -600px;
+
+}
+/*上 编辑区*/
+.editor-panel .panel-top
+{
+    border-bottom: 1px solid #ccc;
+}
+.panel-top h1
+{
+    font-size: 20px;
+    font-weight: normal;
+
+    margin-bottom: 14px;
+}
+.panel-top p
+{
+    font-size: 14px;
+
+    margin-bottom: 14px;
+
+    color: #999;
+}
+
+
+.panel-main
+{
+    color: #666;
+}
+.panel-main > li
+{
+    margin-top: 20px;
+}
+
+.panel-main > li > span
+{
+    font-size: 14px;
+
+    display: block;
+    float: left;
+
+    width: 65px;
+}
+.panel-main > li > div
+{
+    float: left;
+}
+/* 价格 */
+.panel-price span
+{
+    margin-top: 14px;
+}
+.panel-price p
+{
+    font-size: 14px;
+
+    display: inline-block;
+
+    color: #f85453;
+}
+.panel-price p b
+{
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.panel-price i
+{
+    font-size: 14px;
+
+    margin-left: 40px;
+}
+/* 颜色 */
+.panel-color span
+{
+    line-height: 50px;
+}
+.panel-color li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.active em
+{
+    display: block;
+}
+.color-model em
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    display: none;
+
+    width: 22px;
+    height: 22px;
+    background: url(../images/sprite.png);
+    background-position: -278px -580px;
+
+}
+.color-model div
+{
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    right: 0;
+    left: 0;
+
+    display: none;
+
+    min-width: 38px;
+    margin: auto auto;
+    padding: 6px;
+
+    text-align: center;
+
+    background-color: #fff;
+    box-shadow: 0 1px 10px 4px rgba(0,0,0,.08);
+}
+.color-model div i
+{
+    position: absolute;
+    top: -15px;
+    right: 0;
+    left: 0;
+
+    display: block;
+
+    width: 30px;
+    height: 15px;
+    margin: 0 auto;
+    background: url(../images/sprite.png);
+    background-position: -220px -600px;
+}
+
+.color-model > ul > li:hover div
+{
+    display: block;
+}
+
+/* 尺寸*/
+.panel-size > span
+{
+    line-height: 33px;
+}
+.size-model ul
+{
+    width: 400px;
+}
+.size-model li
+{
+    line-height: 33px;
+
+    position: relative;
+
+    display: inline-block;
+
+    margin: 0 6px 15px 0;
+    padding: 0 23px;
+
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+/* 数量 */
+.panel-count span
+{
+    line-height: 32px;
+}
+.panel-count span.stock{
+    color: #999;
+}
+.panel-count p
+{
+    line-height: 30px;
+
+    width: 90px;
+    height: 30px;
+
+    border: 1px solid #b3b3b3;
+}
+.panel-count p i
+{
+    display: inline-block;
+
+    width: 24px;
+    height: 30px;
+
+    text-align: center;
+}
+#count-minus
+{
+    border-right: 1px solid #e4e3e5;
+    cursor:pointer;
+}
+#count-add
+{
+    border-left: 1px solid #e4e3e5;
+    cursor:pointer;
+}
+#count-num
+{
+    width: 30px;
+}
+
+.panel-bottom
+{
+    clear: both;
+
+    padding: 20px 0 0 65px;
+}
+.buyBtn
+{
+    font-size: 18px;
+    line-height: 40px;
+
+    display: inline-block;
+
+    width: 180px;
+    height: 40px;
+    margin-right: 20px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #523669 ;
+}
+.addShopCar
+{
+    background-color: #f7b200 !important;
+    position: relative;
+}
+.flyIcon{
+    display: block;
+    position: absolute;
+    top:0;left:0;
+    box-sizing: border-box;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:2px solid rgba(255,255,255,0.5);
+    margin-top:0px;
+    margin-left:70px;
+    z-index:120;
+    transition: all 0.5s ease-in-out;
+    /*overflow: hidden;*/
+    /*position: absolute;*/
+    /*opacity:0;*/
+    /*-webkit-animation: flyToCart 1s ease-in-out;*/
+    /*animation: flyToCart 1s ease-in-out;*/
+
+}
+/*@-webkit-keyframes flyToCart {
+    5%{ opacity:1;}
+    20%{}
+}
+@keyframes flyToCart {
+    5%{opacity:1;}
+
+    20%{}
+}*/
+/* 详情 顶部 导航栏 */
+.detail-view
+{
+    margin-top: 40px;
+}
+.view-title
+{
+    height: 60px;
+
+    border: 1px solid #ccc;
+    background-color: #eeecef;
+}
+
+.supplier-title
+{
+    display: block;
+    float: left;
+
+    width: 240px;
+    height: 60px;
+
+    text-align: center;
+
+    border-right: 1px solid #ccc;
+}
+.view-title i
+{
+    line-height: 60px;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 18px;
+
+    vertical-align: middle;
+    background: url(../images/sprite.png);
+    background-position:-250px -580px;
+}
+.view-title b
+{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 60px;
+
+    display: inline-block;
+
+    padding-left: 16px;
+
+    vertical-align: middle;
+
+    color: #333;
+}
+.view-title ul
+{
+    float: left;
+}
+.view-title ul li
+{
+    font-size: 16px;
+    line-height: 60px;
+
+    float: left;
+
+    width: 180px;
+    height: 60px;
+
+    text-align: center;
+
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+}
+.view-title ul li.active-tab
+{
+    height: 58px;
+
+    color: #523669;
+    border-bottom: 3px solid #523669;
+    background-color: #fff;
+}
+
+.view-title .buyBtn
+{
+    display: none;
+    float: right;
+
+    margin-top: 10px;
+}
+
+.view-title-fixed
+{
+    position: fixed;
+    z-index: 120;
+    top: 0;
+
+    width: 1080px;
+    -webkit-animation: toTop 0.3s ease;
+    animation: toTop 0.3s ease;
+}
+@-webkit-keyframes toTop {
+    0%{top:-60px;}
+}
+@keyframes toTop {
+    0%{top:-60px;}
+}
+.view-title-fixed .buyBtn
+{
+    display: block;
+}
+/**/
+
+
+.view-left
+{
+    float: left;
+
+    width: 240px;
+    margin-top: -1px;
+
+    border: 1px solid #ccc;
+}
+.view-main
+{
+    float: left;
+    width: 838px;
+}
+
+/* 供应商信息及推荐 */
+.collection{
+    height:280px;
+    border-bottom: 1px solid #ccc;
+    background: url(../images/shoucang.jpg) center center no-repeat;
+    cursor: pointer;
+}
+.supplier-recommend
+{
+    padding: 40px 20px;
+}
+.supplier-recommend li:not(:last-child)
+{
+    margin-bottom: 40px;
+
+    border-bottom: 1px solid #ccc;
+}
+.supplier-recommend li dl
+{
+    font-size: 16px;
+
+    margin-top: 20px;
+
+    text-align: center;
+}
+.supplier-recommend li dl dt
+{
+    color: #333;
+}
+
+.supplier-recommend li dl dd
+{
+    margin: 10px 0 20px 0;
+
+    color: #f33;
+}
+/* 商品信息 */
+.view-content article{
+    margin:20px;
+    width:800px;
+}
+.view-content article img{
+    margin-bottom:20px;
+}
