@@ -7,6 +7,9 @@ const category = r => require.ensure([], () => r(require('../page/category.vue')
 const products = r => require.ensure([], () => r(require('../page/products.vue')), 'products')
 const shopcars = r => require.ensure([], () => r(require('../page/shopcars.vue')), 'shopcars')
 const orderConfirm = r => require.ensure([], () => r(require('../page/orderConfirm.vue')), 'orderConfirm')
+const orderCharge = r => require.ensure([], () => r(require('../page/orderCharge.vue')), 'orderCharge')
+
+
 export default [{
     path: '/',
     component: App, //顶层路由，对应index.html
@@ -55,6 +58,12 @@ export default [{
             path:'/order/confirm',
             name:'orderConfirm',
             component:orderConfirm
+        }
+        //支付页
+        {
+            path:'/order/charge',
+            name:'orderCharge',
+            component:orderCharge
         }
 
     ]
